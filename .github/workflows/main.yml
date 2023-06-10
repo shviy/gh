@@ -1,0 +1,42 @@
+name: gh
+
+on:
+  push:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      run: |
+        git config --global --add safe.directory $(pwd)
+        git clone --quiet https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} .
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v3
+      with:
+        python-version: 3.10.4
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        
+    - name: Update hosts
+      run: |
+        python update.py
+    
+    - name: Push
+      run: |
+        git config user.name "shviy"
+        git config user.email "136134973+shviy@users.noreply.github.com"
+        git add . 
+        git commit --allow-empty -m "$(date "+%Y%m%d-%H%M")"
+        git push
+        
+        
+
