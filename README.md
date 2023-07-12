@@ -1,5 +1,5 @@
 
-###  2023-07-11T22:13:39+08:00
+###  2023-07-12T12:16:49+08:00
 ```bash
 # GitHubHosts Start
 
@@ -18,7 +18,7 @@
 140.82.113.3                  api.github.com
 199.232.96.133                raw.githubusercontent.com
 140.82.113.3                  raw.github.com
-199.232.96.133                user-images.githubusercontent.com
+104.210.132.49                user-images.githubusercontent.com
 199.232.96.133                favicons.githubusercontent.com
 199.232.96.133                avatars5.githubusercontent.com
 199.232.96.133                avatars4.githubusercontent.com
