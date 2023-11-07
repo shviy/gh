@@ -1,5 +1,5 @@
 
-###  2023-11-07T10:25:00+08:00
+###  2023-11-07T12:15:29+08:00
 ```bash
 # GitHubHosts Start
 
@@ -32,6 +32,7 @@
 140.82.112.4                  training.github.com
 140.82.112.4                  customer-stories-feed.github.com
 140.82.112.4                  pages.github.com
+140.82.112.29                 githubapp.com
 140.82.112.4                  github.com
 
 # GitHubHosts End
