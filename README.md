@@ -1,5 +1,5 @@
 
-###  2023-11-20T16:19:00+08:00
+###  2023-11-24T16:16:28+08:00
 ```bash
 # GitHubHosts Start
 
@@ -22,7 +22,7 @@
 72.21.206.80                  github-production-user-asset-6210df.s3.amazonaws.com
 72.21.206.80                  github-production-repository-file-5c1aeb.s3.amazonaws.com
 185.199.108.153               githubstatus.com
-140.82.112.18                 github.community
+140.82.112.17                 github.community
 52.224.38.193                 github.dev
 140.82.114.3                  collector.github.com
 140.82.114.3                  documentcloud.github.com
