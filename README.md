@@ -1,5 +1,5 @@
 
-###  2024-01-05T16:17:45+08:00
+###  2024-01-05T18:14:46+08:00
 ```bash
 # GitHubHosts Start
 
@@ -25,11 +25,7 @@
 140.82.114.18                 github.community
 52.224.38.193                 github.dev
 140.82.113.4                  collector.github.com
-185.199.108.133               media.githubusercontent.com
-185.199.108.133               cloud.githubusercontent.com
-185.199.108.133               objects.githubusercontent.com
 140.82.113.4                  documentcloud.github.com
-185.199.108.133               gist.githubusercontent.com
 140.82.113.4                  help.github.com
 140.82.113.4                  nodeload.github.com
 140.82.113.4                  status.github.com
