@@ -1,11 +1,11 @@
 
-###  2024-04-29T06:12:46+08:00
+###  2024-04-29T08:58:32+08:00
 ```bash
 # GitHubHosts Start
 
-140.82.114.4                  alive.github.com
-140.82.114.4                  live.github.com
-140.82.114.4                  central.github.com
+140.82.112.4                  alive.github.com
+140.82.112.4                  live.github.com
+140.82.112.4                  central.github.com
 140.82.112.4                  assets-cdn.github.com
 151.101.1.6                   github.map.fastly.net
 151.101.1.6                   github.global.ssl.fastly.net
@@ -30,10 +30,10 @@
 140.82.112.4                  nodeload.github.com
 140.82.112.4                  status.github.com
 140.82.112.4                  training.github.com
-140.82.114.4                  customer-stories-feed.github.com
-140.82.114.4                  pages.github.com
+140.82.112.4                  customer-stories-feed.github.com
+140.82.112.4                  pages.github.com
 140.82.112.29                 githubapp.com
-140.82.114.4                  github.com
+140.82.112.4                  github.com
 
 # GitHubHosts End
 
